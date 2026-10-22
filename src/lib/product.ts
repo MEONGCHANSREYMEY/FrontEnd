@@ -1,46 +1,4 @@
-// //create a type 
 
-
-// export type ProductType = {
-//     image: string,
-//     title: string,
-//     desc: string,
-//     price: number
-// }
-
-// export const ProductList: ProductType[] = [
-//     {
-//         image: "https://i.pinimg.com/736x/99/5e/c6/995ec6817fecd20e62803f8cbdd1bff7.jpg",
-//         title: "Headphones",
-//         desc: "Experience music like never before with our state-of-the-art Cosmic Headphones. Immerse yourself in crystal-clear sound and unparalleled comfort.",
-//         price: 199.99
-//     },
-//     {
-//         image: "https://i.pinimg.com/736x/45/1f/ba/451fba1d2cc25f6599d2f68619ad751b.jpg",
-//         title: "BMW M4",
-//         desc: "Experience music like never before with our state-of-the-art Cosmic Headphones. Immerse yourself in crystal-clear sound and unparalleled comfort.",
-//         price: 2000
-//     },
-//     {
-//         image: "https://i.pinimg.com/1200x/ea/20/db/ea20dbfe74d83b52691a63bbe6eb45e3.jpg",
-//         title: "Ferrari SF90",
-//         desc: "Experience music like never before with our state-of-the-art Cosmic Headphones. Immerse yourself in crystal-clear sound and unparalleled comfort.",
-//         price: 4000
-//     },
-//     {
-//         image: "https://i.pinimg.com/1200x/41/4b/d3/414bd3610759b29084aa90e30cbad15f.jpg",
-//         title: "NISSAN GT-R NISMO 2020",
-//         desc: "Experience music like never before with our state-of-the-art Cosmic Headphones. Immerse yourself in crystal-clear sound and unparalleled comfort.",
-//         price: 5000
-//     },
-//     {
-//         image: "https://i.pinimg.com/736x/7f/ce/7f/7fce7fc416a470d8a92a87ddfe536408.jpg",
-//         title: "Audi R8",
-//         desc: "Experience music like never before with our state-of-the-art Cosmic Headphones. Immerse yourself in crystal-clear sound and unparalleled comfort.",
-//         price: 4500
-//     },
-
-// ]
 export interface Item {
   title: string;
   price: string;
